@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>drop down demo</title>
+    <style>
+        #header{
+            width:600px;
+            height:50px;
+            margin:0 auto;
+        }
+        #header .member{
+            line-height:40px;
+        }
+        #header .member a{
+            color:#000;
+            text-decoration: none;
+            display:block;
+        }
+        #header .member ul{
+            list-style-type: none;
+            display:none;
+        }
+        #header .member span:hover {
+            background-color: #000;
+            color:#fff;
+        }
+        #header .member:hover ul{
+            display:block;
+        }
+        #header .member ul li{
+            color:#000;
+            text-decoration: none;
+        }
+        #header .member ul li a:hover{
+            background-color: #333;
+            color:#fff;
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+    <div class="member"><a href="#"><span>Study</span>
+        <ul>
+            <li><a href="#">java</a></li>
+            <li><a href="#">javascript</a> </li>
+            <li><a href="#">html5</a></li>
+            <li><a href="#">css3</a></li>
+        </ul>
+    </a>
+    </div>
+</div>
+</body>
+</html>
