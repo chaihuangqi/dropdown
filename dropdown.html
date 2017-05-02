@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #box{
+            width:600px;height:40px;margin:0 auto;
+        }
+        #box ul{
+            list-style: none;
+        }
+        #box ul li{
+            float:left;
+            line-height:40px;
+            text-align: center;
+            position: relative;
+        }
+        #box ul li a{
+            text-decoration: none;
+            color:#000;
+            display: block;
+            padding: 0 10px;
+        }
+        #box ul li a:hover{
+            color:#fff;
+            background: #333;
+        }
+        #box ul li ul{
+            position: absolute;
+            display: none;
+        }
+        #box ul li ul li{
+            float:none;
+            line-height:30px;
+            text-align: left;
+            width:100%;
+        }
+        #box ul li ul li a:hover{
+            background-color: #666;
+
+        }
+        #box ul li:hover ul{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+<div id="box">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Study</a>
+            <ul>
+                <li><a href="#">java</a></li>
+                <li><a href="#">html5</a></li>
+                <li><a href="#">Css</a></li>
+                <li><a href="#">javaScript</a></li>
+            </ul>
+        </li>
+        <li><a href="#">User Info</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+
+</div>
+</body>
+</html>
